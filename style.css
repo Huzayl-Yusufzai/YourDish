@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+img.logo {
+    height:90px;
+    width: 300.44px;
+    margin-left: 270px;
+}
+
+#header {
+    background-color: #f5deb3;
+    height: 90px;
+}
+
+#headerbtn {
+    border-color: rgb(235, 191, 108);
+    border-width: 1px 1px 5px 5px;
+    height: 50px;
+    width: 100px;
+    margin-top: 22px;
+    margin-left: 10px;
+    background-color: wheat;
+    transform: translateY(-40px);
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#headerbtn:hover {
+    background-color:  rgb(235, 191, 108);
+}
+
+.homebtn {
+    cursor: pointer;
+}
+
+a.hidden{
+    font-size: 0;
+}
+/* Dropdown Button */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: wheat;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 10px;
+  transform: translateY(-40px);
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(235, 191, 108); cursor: pointer;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:rgb(235, 191, 108);}
+
+#titles {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.homeTitle {
+    font-size: 90px;
+    transform: translateY(-35px);
+}
+
+.homeTitle2 {
+    transform: translateY(-80px);
+    color: #66b345;
+}
+ 
+#Eur, #Asia, #Ocean {
+   margin-left: 80px;
+   margin-bottom: 10px;
+   transform: translateY(-50px);
+
+}
+
+#NorthAm{
+   margin-left: 140px;
+   margin-bottom: 10px;
+   transform: translateY(-50px);
+}
+
+#CentralAm {
+ margin-left: 19%;
+}
+
+#SouthAm {
+    margin-left: 115px;
+}
+
+#Africa {
+    margin-left: 120px;
+}
+
+#NorthAm, #Eur, #Asia, #Ocean, #CentralAm, #SouthAm, #Africa{
+    height: 100px;
+    width: 190px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #f5deb3;
+    border-color: black;
+    font-size: 20px;
+}
+
+#NorthAm:hover{
+    background-color: red;
+    color: white;
+    border: solid white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+ }
+
+#Eur:hover {
+    background-color: rgb(21, 122, 245);
+    color: white;
+    border: solid white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#Asia:hover {
+    background-color: rgb(233, 193, 12);
+    color: white;
+    border: solid white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#Ocean:hover  {
+    background-color: rgb(99, 59, 221);
+    color: white;
+    border: solid white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+ 
+ #CentralAm:hover  {
+    background-color:rgb(21, 238, 245);
+    color: white;
+    border: solid white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+ }
+ 
+ #SouthAm:hover  {
+    background-color:rgb(24, 185, 61);
+    color: white;
+    border: solid white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+ }
+ 
+ #Africa:hover  {
+    background-color: rgb(229, 133, 50);
+    color: white;
+    border: solid white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+ }
+
+ /*Region stuff*/ 
+
+ .banner {
+    position: relative;
+  }
+  
+  .bannerText1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-size: 18px;
+    color: white;
+    font-family:'Quicksand', sans-serif; 
+    font-size: 200px;
+    text-decoration: underline;
+  }
+
+  .bannerText1A{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -70%);
+    font-size: 18px;
+    color: white;
+    font-family:'Quicksand', sans-serif; 
+    font-size: 90px;
+    width: 790px;
+    text-decoration: underline;
+  }
+
+  .bannerText2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -450%);
+    font-size: 18px;
+    color: white;
+    font-family:'Quicksand', sans-serif; 
+    font-size: 30px;
+  }
+
+  .bannerText3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 500%);
+    font-size: 18px;
+    color: white;
+    font-family:'Quicksand', sans-serif; 
+    font-size: 15px;
+  }
+  
+  img.Photo { 
+    width: 100%;
+    height: auto;
+    transform: translateY(-22px);
+    filter: brightness(30%);
+  }
+
+  .container {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    filter: brightness(30%);
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 105px 35px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    border-color: black;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  /*Food Code*/ 
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+  }
+
+  .videoIntro {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    transform: translateX(200px);
+    text-decoration: underline;
+    margin: 0;
+    width: 400px;
+  }
+
+  .videoBackground {
+    height:fit-content;
+    width: 100%;
+    background-color: #f5deb3;
+  }
+
+  .order {
+    display: inline-flex;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .Ingredients {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  .Steps {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+
+  .steps {
+    margin-left: 40px;
+    border-left: 2px dotted black;
+  }
+
+  p.OverviewText {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-family: 'Quicksand', sans-serif;
+    margin: 5px 10px;
+  }
+
+  legend {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 5px;
+    padding: 0 10px;
+    color: #66b345;
+  }
+
+  fieldset {
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 60px;
+  }
+
+  #stats {
+    color: #66b345;
+  }
+
+  input {
+    float: right;
+    transform: translateY(-20px);
+  }
+
+  .lastcheck {
+    transform: translateY(-40px);
+  }
